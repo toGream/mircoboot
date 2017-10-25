@@ -13,7 +13,7 @@ public class BaseController {
 	private IBaseService baseService;
 	
 	@GetMapping("/hello/{name}")
-	public String hello(@PathVariable String name) {
+	public String hello(@PathVariable(value="userName") String name) {
 		return baseService.hello(name);
 	}
 }

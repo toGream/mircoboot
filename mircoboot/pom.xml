@@ -34,6 +34,7 @@
   <modules>
     <module>mircoboot-base</module>
     <module>mircoboot-eureka</module>
+    <module>mirocboot-user</module>
   </modules>
   
   <build>
