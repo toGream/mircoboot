@@ -1,8 +1,8 @@
 server:
-  port: 9762
+  port: 9764
 spring:
   application:
-    name: spring-cloud-base
+    name: spring-cloud-ribbon
 eureka:
   client:
     register-with-eureka: true

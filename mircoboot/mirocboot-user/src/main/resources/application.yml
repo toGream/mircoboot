@@ -1,5 +1,5 @@
 server:
-  port: 8012
+  port: 9763
 spring:
   application:
     name: spring-cloud-user

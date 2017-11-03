@@ -35,6 +35,12 @@
     <module>mircoboot-base</module>
     <module>mircoboot-eureka</module>
     <module>mirocboot-user</module>
+    <module>mircoboot-ribbon</module>
+    <module>service-hi</module>
+    <module>service-ribbon</module>
+    <module>service-feign</module>
+    <module>service-hystrix</module>
+    <module>service-zuul</module>
   </modules>
   
   <build>

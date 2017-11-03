@@ -13,7 +13,9 @@ public class BaseController {
 	private IBaseService baseService;
 	
 	@GetMapping("/hello/{name}")
-	public String hello(@PathVariable(value="userName") String name) {
+	public String hello(@PathVariable(value="name") String name) {
 		return baseService.hello(name);
 	}
+	
+	
 }
