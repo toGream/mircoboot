@@ -7,6 +7,9 @@
 
 二.此模块可以在配置文件中配置 spring-cloud-starter-bus-amqp ；
 这就是说我们需要装rabbitMq，点击rabbitmq下载。至于怎么使用 rabbitmq，搜索引擎下
+通过登录rabbitmq管理界面能查看到关联的服务
+    浏览器输入：http://localhost:15672/#/
+    用户名：guest，密码guest
 
 说明:
 1.以下四项不要知道否则报异常rabbitmq java.net.SocketException: Socket Closed
@@ -22,3 +25,4 @@
 	</dependency>
 3.获取git文件值得类必须加@RefreshScope注解才能刷新到值
   @RefreshScope	
+  
