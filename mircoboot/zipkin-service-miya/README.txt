@@ -1,0 +1,1 @@
+此模块与zipkin-service-hi模块大致一样，两者相互调用.
