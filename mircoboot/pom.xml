@@ -47,6 +47,9 @@
     <module>server-zipkin</module>
     <module>zipkin-service-hi</module>
     <module>zipkin-service-miya</module>
+    <module>Service-hihi</module>
+    <module>service-turbine</module>
+    <module>consul-miya</module>
   </modules>
   
   <build>
